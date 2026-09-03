@@ -38,7 +38,7 @@ export const bands: Band[] = [
         members: [
             { name: "โป่ง ปฐมพงษ์ สมบัติพิบูลย์", role: "นักร้อง" ,image: "/images/members/0.jpg",},
             { name: "ป๊อป จักรรินทร์ ดวงมณีรัตนชัย", role: "กีตาร์" ,image: "/images/members/9.jpg",},
-            { name: "ทักษ์ พิทักษ์ ศรีสังข์", role: "เบส",image: "/images/members/8.jpg", },
+            { name: "ทักษ์ พิทักษ์ ศรีสังข์", role: "เบส",image: "/images/members/8.jpg",},
             { name: "Sel Vester Lester C. Esteban", role: "กลอง",image: "/images/members/7.jpg", },
             { name: "ปิงปอง ดำรงสิทธิ์ ศรีนาค", role: "กลอง" ,image: "/images/members/6.jpg",}
         ]
