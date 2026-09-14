@@ -4,6 +4,7 @@ export const bands: Band[] = [
     {
         id: 1,
         name: "yented",
+        foundedYear: 2015,
         genre: "Pop",
         info: "เป็นวงดนตรีไทยที่มีสมาชิก 7 คน เริ่มต้นจากกลุ่มนักศึกษามหาวิทยาลัยพะเยาที่รวมตัวกันทำเพลง ก่อนพัฒนาจากวง Acoustic Pop มาเป็นวงที่มีดนตรีหลากหลายมากขึ้น และได้เข้าร่วมการประกวดดนตรี ก่อนจะกลายเป็นศิลปินในสังกัด Macrowave ",
         image: "/images/bands/yen.jpg",
@@ -17,6 +18,7 @@ export const bands: Band[] = [
     {
         id: 2,
         name: "Linkin Park",
+        foundedYear: 1996,
         genre: "Pop Rock",
         info: "Linkin Park เริ่มต้นจาก Mike Shinoda, Brad Delson และ Rob Bourdon ก่อนที่จะพัฒนาวงและได้สมาชิกเพิ่มเติมจนกลายเป็นวงที่มีชื่อเสียงระดับโลก",
         image: "/images/bands/park.jpg",
@@ -32,6 +34,7 @@ export const bands: Band[] = [
     {
         id: 3,
         name: "The Sun",
+        foundedYear: 1996,
         genre: "Rock",
          info: "ป็นวงดนตรีร็อกไทยแนว Heavy Metal และ Hard Rock ก่อตั้งในปี พ.ศ. 2539 โดยมี โป่ง ปฐมพงษ์ และ ป๊อป จักรรินทร์ เป็นสมาชิกหลัก วงมีจุดเด่นด้านเสียงร้องที่ทรงพลัง ดนตรีหนักแน่น และการเล่นกีตาร์โซโล่ที่โดดเด่น",
         image: "/images/bands/sun.jpg",

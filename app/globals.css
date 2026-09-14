@@ -17,6 +17,89 @@ main,
   padding: 20px;
 }
 
+.pageHeading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.pageHeading h1 {
+  margin: 0;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #9a3412;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.followedCount {
+  margin: 0;
+  color: #9a3412;
+  font-weight: 700;
+}
+
+.bandControls {
+  display: flex;
+  align-items: end;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #fff1e6;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+}
+
+.searchField,
+.sortField {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.searchField {
+  flex: 1;
+}
+
+.searchField span,
+.sortField span {
+  font-size: 0.9rem;
+}
+
+.searchField input,
+.sortField select {
+  min-height: 42px;
+  padding: 0 12px;
+  border: 1px solid #fdba74;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2b2118;
+  font: inherit;
+}
+
+.resetButton,
+.cardActions button {
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid #c2410c;
+  border-radius: 6px;
+  background: #c2410c;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.resetButton:hover,
+.cardActions button:hover {
+  background: #9a3412;
+}
+
 .bandList {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -60,6 +143,40 @@ main,
   line-height: 1.6;
 }
 
+.cardActions {
+  display: flex;
+  gap: 10px;
+  margin: 16px 18px 0;
+}
+
+.cardActions .isFollowing {
+  border-color: #166534;
+  background: #166534;
+}
+
+.cardActions .likeButton {
+  border-color: #be123c;
+  background: #fff1f2;
+  color: #be123c;
+}
+
+.emptyState {
+  padding: 48px 20px;
+  border: 1px dashed #fdba74;
+  border-radius: 8px;
+  background: #fffaf5;
+  text-align: center;
+}
+
+.emptyState h2,
+.emptyState p {
+  margin: 0;
+}
+
+.emptyState p {
+  margin-top: 8px;
+}
+
 .bandCard > h3 {
   margin-top: 20px;
   margin-bottom: 8px;
@@ -90,6 +207,12 @@ main,
 }
 
 @media (max-width: 900px) {
+  .bandControls,
+  .pageHeading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .bandList {
     grid-template-columns: 1fr;
   }
